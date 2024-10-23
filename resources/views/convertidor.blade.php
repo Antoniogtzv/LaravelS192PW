@@ -3,27 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convertidor</title>
+    <title>REPASO1</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #000; /* Fondo negro */
-            color: #fff; /* Texto en blanco */
+            background-color: #000; 
+            color: #fff; 
         }
         .container {
             width: 80%;
             margin: auto;
             overflow: hidden;
             padding: 20px;
-            background: #222; /* Fondo oscuro para el contenedor */
+            background: #222; 
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Sombra roja */
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
         }
         h1 {
             text-align: center;
-            color: #ff0000; /* Rojo F1 */
+            color: #ff0000; 
         }
         form {
             margin: 20px 0;
@@ -31,7 +31,7 @@
         label {
             display: block;
             margin-bottom: 5px;
-            color: #ffcc00; /* Amarillo F1 */
+            color: #ffcc00; 
         }
         input, select, button {
             padding: 10px;
@@ -41,23 +41,23 @@
             border-radius: 5px;
         }
         input, select {
-            background: #444; /* Fondo gris oscuro */
-            color: #fff; /* Texto en blanco */
+            background: #444; 
+            color: #fff; 
         }
         button {
-            background: #ff0000; /* Rojo F1 */
+            background: #ff0000; 
             color: #fff;
             border: none;
             cursor: pointer;
         }
         button:hover {
-            background: #cc0000; /* Rojo más oscuro al pasar el ratón */
+            background: #cc0000; 
         }
         .resultado {
             margin-top: 20px;
             text-align: center;
             font-size: 1.5em;
-            color: #ffcc00; /* Amarillo F1 */
+            color: #ffcc00; 
         }
     </style>
 </head>

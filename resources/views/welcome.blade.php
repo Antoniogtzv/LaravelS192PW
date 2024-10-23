@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pantalla de Bienvenida</title>
+    <title> Inicio </title>
     <style>
         body {
             margin: 0;
@@ -12,7 +12,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #000; /* Fondo negro */
+            background-color: #000; 
             font-family: Arial, sans-serif;
         }
 
@@ -26,7 +26,7 @@
         }
 
         h1 {
-            color: red; /* Letras rojas */
+            color: red; 
             font-size: 4rem;
             font-weight: bold;
             margin-bottom: 20px;
@@ -36,20 +36,20 @@
             padding: 15px 30px;
             font-size: 1.5rem;
             color: white;
-            background-color: red; /* Botón rojo */
+            background-color: red; 
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
 
         button:hover {
-            background-color: darkred; /* Cambio de color al pasar el cursor */
+            background-color: darkred; 
         }
 
-        /* Estilos para el nombre y matrícula */
+        
         .footer {
             margin-top: 20px;
-            color: white; /* Color blanco para el texto */
+            color: white; 
             font-size: 1.2rem;
         }
     </style>
@@ -60,10 +60,10 @@
         
         <h1>¡Bienvenido!</h1>
         <form action="{{ route('convertidor') }}" method="GET">
-            <button type="submit">Iniciar</button>
+            <button type="submit">REPASO 1</button>
         </form>
 
-        <!-- Agregar el nombre y la matrícula -->
+        
         <div class="footer">
             <p>Antonio Gutierrez Villalobos</p>
             <p>Matrícula: 121040593</p>
